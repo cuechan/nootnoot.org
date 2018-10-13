@@ -1,0 +1,6 @@
+<div id='tabmenu' class='tabmenu'>
+
+  <div id='tab_top_1' class='tab_top_active' oneclick='javascript:openTab(1)';>Info</div>
+  <div id='tab_top_2' class='tab_top_active' onclick='javascript:openTab(2)';>Bilder</div>
+
+  <div style='clear: both;'></div>
