@@ -1,9 +1,16 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Mali', cursive;
+    
 }
 
-h2   {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+h1 {
+    font-family: 'Mali', cursive;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Mali', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 .red_box {
@@ -23,12 +30,21 @@ h2   {
 .center_box {
     margin: auto;
     width: 50%;
-    background-color: rgba(50, 50, 50, 0.1);
+    background-color: rgba(155, 155, 155, 0.1);
     transition: 0.2s;
 }
 
 .center_box:hover {
-    background-color: rgba(72, 75, 102, 0.3);   
+    background-color: rgba(161, 161, 161, 0.3);   
     padding: 25px;
     border-width: 5px;
+}
+
+#red:hover {
+    background-image: url(https://new.static.tv.nu/16831584?width=720&height=405);
+    color: rgba(0, 0, 0, 0)
+}
+#blue:hover {
+    background-image: url(https://new.static.tv.nu/16831584?width=720&height=405);
+    color: rgba(240, 248, 255, 0);
 }
